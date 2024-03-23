@@ -1,3 +1,7 @@
+.title {
+  text-decoration: underline;
+}
+
 .description_card {
   display: flex;
   border: 1px solid black;
@@ -7,8 +11,39 @@
   border-radius: 15px;
   margin: 0 auto;
   overflow: hidden;
+  margin-bottom: 60px;
+}
+
+.description_card-content {
+  padding-left: 20px;
 }
 
 .description_card iframe {
   width: 5000px;
+}
+
+.map {
+  width: 100%;
+  margin: 40px 0;
+}
+
+.carousel-inner {
+  display: flex;
+  align-items: center;
+  max-height: 70vh;
+  margin-bottom: 70px;
+}
+
+.carousel-item {
+  text-align: center; /* Center the content horizontally */
+}
+
+.carousel-item img {
+  max-width: 100%; /* Ensure images don't exceed their container's width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.contenedor-formulario {
+  margin: 20px auto 70px auto;
+  max-width: 800px;
 }
