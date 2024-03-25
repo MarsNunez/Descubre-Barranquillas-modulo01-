@@ -1,3 +1,7 @@
+body {
+  background-color: #ffe9ba;
+}
+
 .title {
   text-decoration: underline;
 }
@@ -12,10 +16,12 @@
   margin: 0 auto;
   overflow: hidden;
   margin-bottom: 60px;
+  background-color: white;
 }
 
 .description_card-content {
   padding-left: 20px;
+  background-color: white;
 }
 
 .description_card iframe {
